@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "87fbaebf-ef2a-4663-96ed-353289e75227",
+		"name": "API-Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PUT ERROR missing prop",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 2,\r\n\t\"title\": \"qsfojhsrgouhwgwo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/api/annonce/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"annonce",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH OK",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 2,\r\n\t\"title\": \"dgtxhbstdgv\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/api/annonce/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"annonce",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST OK",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 6,\r\n\t\"title\": \"title_6\",\r\n\t\"validTill\": \"2020-10-03 16:16:51.71 CEST\",\r\n\t\"illustrations\": [\t11, 12,13\t],\r\n\t\"description\": \"description\",\r\n\t\"state\": \"true\",\r\n\t\"author\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/api/annonces/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"annonces",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT OK",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 5,\r\n\t\"title\": \"title_6\",\r\n\t\"dateCreated\": \"2019-10-03 16:16:51.71\",\r\n\t\"validTill\": \"2020-10-03 16:16:51.71\",\r\n\t\"illustrations\": [\t11, 12,13\t],\r\n\t\"description\": \"description\",\r\n\t\"state\": \"true\",\r\n\t\"author\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/api/annonce/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"annonce",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELET OK",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8091/api/annonce/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"annonce",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

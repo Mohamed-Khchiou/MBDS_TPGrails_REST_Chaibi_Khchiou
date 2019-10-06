@@ -1,0 +1,1 @@
+﻿$response = Invoke-WebRequest -URI "http://localhost:8091/annonce/cleanData?mdp=jkds82376438_!hjdrbgieh12"
